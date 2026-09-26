@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"TransferableSelectionListPackEntryMixin",
+		"PackSelectionScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

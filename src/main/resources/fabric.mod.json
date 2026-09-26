@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "packdragreorder",
+	"version": "${version}",
+	"name": "Resource Pack Drag Reorder",
+	"description": "Hold a resource pack in the pack menu and drag it up/down to reorder it.",
+	"authors": [
+		"bebrachka221"
+	],
+	"contact": {
+		"sources": "https://github.com/bebrachka221/packdragreorder"
+	},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"client.ResourcePackDragReorderClient"
+		]
+	},
+	"mixins": [
+		"packdragreorder.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}
